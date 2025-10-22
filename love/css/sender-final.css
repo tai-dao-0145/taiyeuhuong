@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/bg-final.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.center-content {
+    position: relative;
+    text-align: center;
+}
+
+    .center-content img.gif {
+        width: 300px; /* adjust size */
+        display: block;
+        margin: 0 auto;
+    }
+
+    .center-content img.small {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 120%; /* adjust size */
+    }

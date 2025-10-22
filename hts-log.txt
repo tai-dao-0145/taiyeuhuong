@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 22 Oct 2025 22:45:36 at https://love.matemade.vn/Home/SenderConfirm?box=0 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://love.matemade.vn/Home/SenderConfirm?box=0 -O1 "C:\My Web Sites\taiyeuhuong" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:49:10	Warning: 	Retry after error -2 (Receive Time Out) at link https://love.matemade.vn/images/bg-head.png (from https://love.matemade.vn/css/review-gift.css)
+22:53:44	Warning: 	Retry after error -2 (Receive Time Out) at link https://love.matemade.vn/images/bg-upload2.png (from https://love.matemade.vn/css/review-gift-sender.css)
+22:55:13	Warning: 	Retry after error -2 (Receive Time Out) at link https://love.matemade.vn/images/bg-head.png (from https://love.matemade.vn/css/review-gift.css)
+22:55:54	Warning: 	Retry after error -2 (Receive Time Out) at link https://love.matemade.vn/images/bg-upload2.png (from https://love.matemade.vn/css/review-gift-sender.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 11 minutes 38 seconds : 22 links scanned, 17 files written (13540695 bytes overall) [13547198 bytes received at 19408 bytes/sec]
+(No errors, 4 warnings, 0 messages)
