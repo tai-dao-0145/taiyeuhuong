@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<!-- Mirrored from love.matemade.vn/Home/SenderConfirm?box=0 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Oct 2025 15:45:38 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATE MADE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&amp;display=swap" rel="stylesheet">
+    <link href="../css/sender-confirm-common.css" rel="stylesheet" /> 
+    <link href="../css/review-gift.css" rel="stylesheet" />
+    <link href="../css/review-gift-sender.css" rel="stylesheet" />
+    <link href="../css/sender-final.css" rel="stylesheet" />
+</head>
+<body>
+    <audio id="myAudio" autoplay loop controls style="display:none">
+        <source id="audioSource"  type="audio/mpeg">
+    </audio>
+    <div class="container-start"> 
+        <a href="#">
+            <img src="../images/logo.png" class="logo-start">
+        </a>
+        <div class="content1-start">
+            <div class="sucsses-start">
+                Gửi Thúy Hường thân yêu của anh
+            </div>
+            <div class="text-start">
+
+                <p>
+                    Những ngọt ngào của anh gửi gắm đã sẵn sàng gửi đến em.
+                </p>
+                <p>
+                    Em hãy cảm nhận nhé!
+                </p>
+            </div> 
+        </div>
+        <div class="content2-start">
+            <button class="btn-start" id="btnStart" onclick="showGift();"><a style="text-decoration: none;">Xem thiệp</a></button>
+        </div>
+    </div>
+    <img src="../images/bg-foot-confirm.png" id="bottomImage" class="bottom-image">
+
+    <div class="container" style="display:none">
+        <img src="../images/gift-final.gif" alt="GIF" class="gif">
+        <div class="content">
+            <img src="../images/GIF.gif" alt="mp3" class="mp3">
+            <p class="note">
+                Chào mừng bạn đến với chuyến bay mang số hiệu AnhYeuEm của hãng hàng không TaiyeuHuong Airlines!
+            </p>
+            <div class="wrap">
+                <div class="left">
+                    <div class="img-input-container">
+                       <img id="preview" src="https://love.matemade.vn/uploads/cf7587eb-9f46-458d-89cc-40e7e446b471.jpg" class="img-placeholder">
+                    </div>
+                </div>
+                <div class="right">
+                    <p class="message-header">Trước khi cất cánh, anh muốn gửi tới em đôi điều:</p>
+                    <textarea readonly="">Gửi Thúy Hường thân yêu của anh.
+Anh viết những lời này trong khi anh vẫn còn giận em, anh biết rằng khi giận nhau là chuyện không tránh khỏi, nhưng anh luôn mong rằng mình sẽ luôn nghĩ về nhau và biết phải làm gì tốt nhất, phía trước sẽ còn rất nhiều những khó khăn, và anh mong rằng anh và em sẽ cùng nhau bước đi thật xa đến cuối con đường, để làm được điều đó cả hai sẽ yêu thương nhau thật nhiều, nhường nhịn, tin tưởng, có thể là sự hy sinh.
+20/10 này anh chúc em ngày càng xinh đẹp hơn, tự tin, luôn vui vẻ, tất cả mọi điều đều suôn sẻ và nhớ yêu thương anh thật nhiều nhiều</textarea>
+                </div>
+            </div>
+        </div> 
+    </div> 
+</body>
+
+<!-- Mirrored from love.matemade.vn/Home/SenderConfirm?box=0 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Oct 2025 15:45:45 GMT -->
+</html>
+<script> 
+    const audio = document.getElementById("myAudio");
+     function showGift() {
+        audio.play();
+        document.querySelector('.container-start').style.display = 'none';
+        document.querySelector('.bottom-image').style.display = 'none';
+        document.querySelector('.container').style.display = 'block'; 
+    } 
+    const bottomImg = document.getElementById("bottomImage");
+  
+    if (bottomImg.complete) { 
+      setBtnStartPosition(bottomImg.height);
+    } else {
+      bottomImg.onload = function () { 
+         setBtnStartPosition(bottomImg.height);
+      };
+    }
+    function setBtnStartPosition(height)
+    { 
+        const btn = document.getElementById("btnStart"); 
+        btn.style.bottom = height + "px";
+    }
+</script>
